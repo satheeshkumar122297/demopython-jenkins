@@ -8,7 +8,6 @@ pipeline {
                 sh "hostname"
                 sh "uptime"
                 sh "ls -al"
-                sh "whoami"
             }
         }
     }
